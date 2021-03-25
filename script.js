@@ -1,6 +1,21 @@
 let namaPengguna = prompt("Masukan nama anda..");
+let d = new Date();
 
-document.getElementById('nama').innerHTML = namaPengguna;
+let time = d.getHours();
+
+let sapaan = ''
+
+if (time < 12) {
+    sapaan = "Selamat Pagi";
+} else if (time > 12 && time < 15) {
+    sapaan = "Selamat Siang";
+} else if (time > 15 && time < 18) {
+    sapaan = "Selamat Sore";
+} else {
+    sapaan = "Selamat Malam";
+}
+
+document.getElementById('nama').innerHTML = `${sapaan} ${namaPengguna}`;
 
 
 

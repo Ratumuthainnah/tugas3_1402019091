@@ -1,0 +1,16 @@
+.card img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.calculator {
+    margin-top: 20px;
+    padding: 1%;
+    border: 1px solid gray;
+}
+
+.utama {
+    padding-bottom: 20px;
+}

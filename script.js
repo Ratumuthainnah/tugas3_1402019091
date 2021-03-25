@@ -1,3 +1,9 @@
+let namaPengguna = prompt("Masukan nama anda..");
+
+document.getElementById('nama').innerHTML = namaPengguna;
+
+
+
 let hitungSilinder = () => {
     let jari = document.getElementById('jarisilinder').value;
     let tinggi = document.getElementById('tinggisilinder').value;

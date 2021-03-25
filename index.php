@@ -38,7 +38,7 @@
         <div class="container-fluid utama">
             <div class="bg-light p-5 rounded-lg m-3">
                 <h1 class="display-4">3D Kalkulator</h1>
-                <p class="lead">Dibuat oleh Ratu Muth / 1402019091.</p>
+                <p class="lead">Dibuat oleh Ratu Muthmainnah / 1402019091.</p>
                 <hr class="my-4">
                 <h2>Welcome <span id="nama">User</span></h2>
                 <p>Tugas 3 - Web untuk menghitung silinder, kerucut dan bola</p>
